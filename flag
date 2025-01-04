@@ -1,0 +1,13 @@
+<div class="form-group">
+  <label for="accountCurrency">Account Currency</label>
+  <div class="currency-container">
+    <img id="currencyFlag" src="https://flagcdn.com/w320/us.png" alt="Flag" class="currency-flag">
+    <select id="accountCurrency" onchange="updateCurrencyFlag()">
+      <option value="USD" data-flag="https://flagcdn.com/w320/us.png">USD - United States Dollar</option>
+      <option value="EUR" data-flag="https://flagcdn.com/w320/eu.png">EUR - Euro</option>
+      <option value="GBP" data-flag="https://flagcdn.com/w320/gb.png">GBP - British Pound</option>
+      <option value="THB" data-flag="https://flagcdn.com/w320/th.png">THB - Thai Baht</option>
+      <option value="JPY" data-flag="https://flagcdn.com/w320/jp.png">JPY - Japanese Yen</option>
+    </select>
+  </div>
+</div>
